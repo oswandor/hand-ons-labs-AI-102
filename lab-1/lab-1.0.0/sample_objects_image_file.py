@@ -31,12 +31,13 @@ def sample_objects_image_file():
     from azure.core.credentials import AzureKeyCredential
     from PIL import Image, ImageDraw, ImageFont
     import io
+    import os 
 
     # Set the values of your computer vision endpoint and computer vision key
     # as environment variables:
     try:
-        endpoint = os.environ["VISION_ENDPOINT"]
-        key = os.environ["VISION_KEY"]
+        endpoint = os.getenv["VISION_ENDPOINT"]
+        key = os.getenv["VISION_KEY"]
     except KeyError:
         print("Missing environment variable 'VISION_ENDPOINT' or 'VISION_KEY'")
         print("Set them before running this sample.")

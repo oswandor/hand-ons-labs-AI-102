@@ -9,9 +9,10 @@ from azure.ai.vision.imageanalysis import ImageAnalysisClient
 from azure.ai.vision.imageanalysis.models import VisualFeatures
 from azure.core.credentials import AzureKeyCredential
 import json
+import os
 
-endpoint = os.environ["VISION_ENDPOINT"]
-apikey = os.environ["VISION_KEY"]
+endpoint = os.getenv["VISION_ENDPOINT"]
+apikey = os.getenv["VISION_KEY"]
 
 client = ImageAnalysisClient(
     endpoint= endpoint,
