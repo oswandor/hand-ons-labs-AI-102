@@ -1,0 +1,935 @@
+[
+  {
+    "intent": "BookFlight",
+    "language": "en-us",
+    "text": "I want to book a flight to Madrid",
+    "entities": [
+      {
+        "category": "Destination",
+        "offset": 27,
+        "length": 6
+      }
+    ]
+  },
+  {
+    "intent": "BookFlight",
+    "language": "en-us",
+    "text": "I need a round trip flight to Barcelona",
+    "entities": [
+      {
+        "category": "FlightType",
+        "offset": 9,
+        "length": 10
+      },
+      {
+        "category": "Destination",
+        "offset": 30,
+        "length": 9
+      }
+    ]
+  },
+  {
+    "intent": "BookFlight",
+    "language": "en-us",
+    "text": "I'm looking for economy flights to New York in July",
+    "entities": [
+      {
+        "category": "FlightClass",
+        "offset": 16,
+        "length": 7
+      },
+      {
+        "category": "Destination",
+        "offset": 35,
+        "length": 8
+      },
+      {
+        "category": "TravelMonth",
+        "offset": 47,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "BookFlight",
+    "language": "en-us",
+    "text": "Book me a flight from London to Paris on June 15th",
+    "entities": [
+      {
+        "category": "Origin",
+        "offset": 22,
+        "length": 6
+      },
+      {
+        "category": "Destination",
+        "offset": 32,
+        "length": 5
+      },
+      {
+        "category": "TravelDate",
+        "offset": 41,
+        "length": 9
+      }
+    ]
+  },
+  {
+    "intent": "BookFlight",
+    "language": "en-us",
+    "text": "Need a one-way ticket from New York to Berlin in November",
+    "entities": [
+      {
+        "category": "FlightType",
+        "offset": 7,
+        "length": 7
+      },
+      {
+        "category": "Origin",
+        "offset": 27,
+        "length": 8
+      },
+      {
+        "category": "Destination",
+        "offset": 39,
+        "length": 6
+      },
+      {
+        "category": "TravelMonth",
+        "offset": 49,
+        "length": 8
+      }
+    ]
+  },
+  {
+    "intent": "BookFlight",
+    "language": "en-us",
+    "text": "Need a one-way ticket from Toronto to London in September",
+    "entities": [
+      {
+        "category": "FlightType",
+        "offset": 7,
+        "length": 7
+      },
+      {
+        "category": "Origin",
+        "offset": 27,
+        "length": 7
+      },
+      {
+        "category": "Destination",
+        "offset": 38,
+        "length": 6
+      },
+      {
+        "category": "TravelMonth",
+        "offset": 48,
+        "length": 9
+      }
+    ]
+  },
+  {
+    "intent": "BookFlight",
+    "language": "en-us",
+    "text": "Can you find economy flights to London from Sydney on January 21st?",
+    "entities": [
+      {
+        "category": "FlightClass",
+        "offset": 13,
+        "length": 7
+      },
+      {
+        "category": "Destination",
+        "offset": 32,
+        "length": 6
+      },
+      {
+        "category": "Origin",
+        "offset": 44,
+        "length": 6
+      },
+      {
+        "category": "TravelDate",
+        "offset": 54,
+        "length": 12
+      }
+    ]
+  },
+  {
+    "intent": "BookFlight",
+    "language": "en-us",
+    "text": "Need a round trip ticket from London to San Francisco in July",
+    "entities": [
+      {
+        "category": "FlightType",
+        "offset": 7,
+        "length": 10
+      },
+      {
+        "category": "Origin",
+        "offset": 30,
+        "length": 6
+      },
+      {
+        "category": "Destination",
+        "offset": 40,
+        "length": 13
+      },
+      {
+        "category": "TravelMonth",
+        "offset": 57,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "BookFlight",
+    "language": "en-us",
+    "text": "I want to book a business round trip flight from Madrid to Sydney on August 24th",
+    "entities": [
+      {
+        "category": "FlightClass",
+        "offset": 17,
+        "length": 8
+      },
+      {
+        "category": "FlightType",
+        "offset": 26,
+        "length": 10
+      },
+      {
+        "category": "Origin",
+        "offset": 49,
+        "length": 6
+      },
+      {
+        "category": "Destination",
+        "offset": 59,
+        "length": 6
+      },
+      {
+        "category": "TravelDate",
+        "offset": 69,
+        "length": 11
+      }
+    ]
+  },
+  {
+    "intent": "BookFlight",
+    "language": "en-us",
+    "text": "I want to book a premium economy one-way flight from Dubai to Singapore on January 21st",
+    "entities": [
+      {
+        "category": "FlightClass",
+        "offset": 17,
+        "length": 15
+      },
+      {
+        "category": "FlightType",
+        "offset": 33,
+        "length": 7
+      },
+      {
+        "category": "Origin",
+        "offset": 53,
+        "length": 5
+      },
+      {
+        "category": "Destination",
+        "offset": 62,
+        "length": 9
+      },
+      {
+        "category": "TravelDate",
+        "offset": 75,
+        "length": 12
+      }
+    ]
+  },
+  {
+    "intent": "BookFlight",
+    "language": "en-us",
+    "text": "Book me a multi-city flight to Dubai from New York in July",
+    "entities": [
+      {
+        "category": "FlightType",
+        "offset": 10,
+        "length": 10
+      },
+      {
+        "category": "Destination",
+        "offset": 31,
+        "length": 5
+      },
+      {
+        "category": "Origin",
+        "offset": 42,
+        "length": 8
+      },
+      {
+        "category": "TravelMonth",
+        "offset": 54,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "BookFlight",
+    "language": "en-us",
+    "text": "Book me a multi-city flight to Madrid from Berlin in July",
+    "entities": [
+      {
+        "category": "FlightType",
+        "offset": 10,
+        "length": 10
+      },
+      {
+        "category": "Destination",
+        "offset": 31,
+        "length": 6
+      },
+      {
+        "category": "Origin",
+        "offset": 43,
+        "length": 6
+      },
+      {
+        "category": "TravelMonth",
+        "offset": 53,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "BookFlight",
+    "language": "en-us",
+    "text": "Can you find premium economy flights to Toronto from Berlin on April 12th?",
+    "entities": [
+      {
+        "category": "FlightClass",
+        "offset": 13,
+        "length": 15
+      },
+      {
+        "category": "Destination",
+        "offset": 40,
+        "length": 7
+      },
+      {
+        "category": "Origin",
+        "offset": 53,
+        "length": 6
+      },
+      {
+        "category": "TravelDate",
+        "offset": 63,
+        "length": 10
+      }
+    ]
+  },
+  {
+    "intent": "BookFlight",
+    "language": "en-us",
+    "text": "Book me a round trip flight to Los Angeles from Berlin in October",
+    "entities": [
+      {
+        "category": "FlightType",
+        "offset": 10,
+        "length": 10
+      },
+      {
+        "category": "Destination",
+        "offset": 31,
+        "length": 11
+      },
+      {
+        "category": "Origin",
+        "offset": 48,
+        "length": 6
+      },
+      {
+        "category": "TravelMonth",
+        "offset": 58,
+        "length": 7
+      }
+    ]
+  },
+  {
+    "intent": "BookFlight",
+    "language": "en-us",
+    "text": "Can you find economy flights to Singapore from Chicago on January 7th?",
+    "entities": [
+      {
+        "category": "FlightClass",
+        "offset": 13,
+        "length": 7
+      },
+      {
+        "category": "Destination",
+        "offset": 32,
+        "length": 9
+      },
+      {
+        "category": "Origin",
+        "offset": 47,
+        "length": 7
+      },
+      {
+        "category": "TravelDate",
+        "offset": 58,
+        "length": 11
+      }
+    ]
+  },
+  {
+    "intent": "BookFlight",
+    "language": "en-us",
+    "text": "Can you find premium economy flights to Singapore from New York on January 17th?",
+    "entities": [
+      {
+        "category": "FlightClass",
+        "offset": 13,
+        "length": 15
+      },
+      {
+        "category": "Destination",
+        "offset": 40,
+        "length": 9
+      },
+      {
+        "category": "Origin",
+        "offset": 55,
+        "length": 8
+      },
+      {
+        "category": "TravelDate",
+        "offset": 67,
+        "length": 12
+      }
+    ]
+  },
+  {
+    "intent": "BookFlight",
+    "language": "en-us",
+    "text": "Need a round trip ticket from Dubai to Toronto in August",
+    "entities": [
+      {
+        "category": "FlightType",
+        "offset": 7,
+        "length": 10
+      },
+      {
+        "category": "Origin",
+        "offset": 30,
+        "length": 5
+      },
+      {
+        "category": "Destination",
+        "offset": 39,
+        "length": 7
+      },
+      {
+        "category": "TravelMonth",
+        "offset": 50,
+        "length": 6
+      }
+    ]
+  },
+  {
+    "intent": "BookFlight",
+    "language": "en-us",
+    "text": "Need a round trip ticket from Madrid to Paris in August",
+    "entities": [
+      {
+        "category": "FlightType",
+        "offset": 7,
+        "length": 10
+      },
+      {
+        "category": "Origin",
+        "offset": 30,
+        "length": 6
+      },
+      {
+        "category": "Destination",
+        "offset": 40,
+        "length": 5
+      },
+      {
+        "category": "TravelMonth",
+        "offset": 49,
+        "length": 6
+      }
+    ]
+  },
+  {
+    "intent": "BookFlight",
+    "language": "en-us",
+    "text": "Need a round trip ticket from Los Angeles to San Francisco in July",
+    "entities": [
+      {
+        "category": "FlightType",
+        "offset": 7,
+        "length": 10
+      },
+      {
+        "category": "Origin",
+        "offset": 30,
+        "length": 11
+      },
+      {
+        "category": "Destination",
+        "offset": 45,
+        "length": 13
+      },
+      {
+        "category": "TravelMonth",
+        "offset": 62,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "BookFlight",
+    "language": "en-us",
+    "text": "Need a one-way ticket from San Francisco to Barcelona in March",
+    "entities": [
+      {
+        "category": "FlightType",
+        "offset": 7,
+        "length": 7
+      },
+      {
+        "category": "Origin",
+        "offset": 27,
+        "length": 13
+      },
+      {
+        "category": "Destination",
+        "offset": 44,
+        "length": 9
+      },
+      {
+        "category": "TravelMonth",
+        "offset": 57,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "intent": "BookFlight",
+    "language": "en-us",
+    "text": "Book me a one-way flight to Singapore from Sydney in September",
+    "entities": [
+      {
+        "category": "FlightType",
+        "offset": 10,
+        "length": 7
+      },
+      {
+        "category": "Destination",
+        "offset": 28,
+        "length": 9
+      },
+      {
+        "category": "Origin",
+        "offset": 43,
+        "length": 6
+      },
+      {
+        "category": "TravelMonth",
+        "offset": 53,
+        "length": 9
+      }
+    ]
+  },
+  {
+    "intent": "BookFlight",
+    "language": "en-us",
+    "text": "I want to book a premium economy one-way flight from Paris to Los Angeles on February 14th",
+    "entities": [
+      {
+        "category": "FlightClass",
+        "offset": 17,
+        "length": 15
+      },
+      {
+        "category": "FlightType",
+        "offset": 33,
+        "length": 7
+      },
+      {
+        "category": "Origin",
+        "offset": 53,
+        "length": 5
+      },
+      {
+        "category": "Destination",
+        "offset": 62,
+        "length": 11
+      },
+      {
+        "category": "TravelDate",
+        "offset": 77,
+        "length": 13
+      }
+    ]
+  },
+  {
+    "intent": "BookFlight",
+    "language": "en-us",
+    "text": "Need a round trip ticket from Los Angeles to Barcelona in February",
+    "entities": [
+      {
+        "category": "FlightType",
+        "offset": 7,
+        "length": 10
+      },
+      {
+        "category": "Origin",
+        "offset": 30,
+        "length": 11
+      },
+      {
+        "category": "Destination",
+        "offset": 45,
+        "length": 9
+      },
+      {
+        "category": "TravelMonth",
+        "offset": 58,
+        "length": 8
+      }
+    ]
+  },
+  {
+    "intent": "BookFlight",
+    "language": "en-us",
+    "text": "Can you find first class flights to Rome from Tokyo on May 4th?",
+    "entities": [
+      {
+        "category": "FlightClass",
+        "offset": 13,
+        "length": 11
+      },
+      {
+        "category": "Destination",
+        "offset": 36,
+        "length": 4
+      },
+      {
+        "category": "Origin",
+        "offset": 46,
+        "length": 5
+      },
+      {
+        "category": "TravelMonth",
+        "offset": 55,
+        "length": 3
+      },
+      {
+        "category": "TravelDate",
+        "offset": 55,
+        "length": 7
+      }
+    ]
+  },
+  {
+    "intent": "BookFlight",
+    "language": "en-us",
+    "text": "I want to book a economy round trip flight from Barcelona to San Francisco on May 7th",
+    "entities": [
+      {
+        "category": "FlightClass",
+        "offset": 17,
+        "length": 7
+      },
+      {
+        "category": "FlightType",
+        "offset": 25,
+        "length": 10
+      },
+      {
+        "category": "Origin",
+        "offset": 48,
+        "length": 9
+      },
+      {
+        "category": "Destination",
+        "offset": 61,
+        "length": 13
+      },
+      {
+        "category": "TravelMonth",
+        "offset": 78,
+        "length": 3
+      },
+      {
+        "category": "TravelDate",
+        "offset": 78,
+        "length": 7
+      }
+    ]
+  },
+  {
+    "intent": "BookFlight",
+    "language": "en-us",
+    "text": "I want to book a premium economy round trip flight from Chicago to London on April 15th",
+    "entities": [
+      {
+        "category": "FlightClass",
+        "offset": 17,
+        "length": 15
+      },
+      {
+        "category": "FlightType",
+        "offset": 33,
+        "length": 10
+      },
+      {
+        "category": "Origin",
+        "offset": 56,
+        "length": 7
+      },
+      {
+        "category": "Destination",
+        "offset": 67,
+        "length": 6
+      },
+      {
+        "category": "TravelDate",
+        "offset": 77,
+        "length": 10
+      }
+    ]
+  },
+  {
+    "intent": "BookFlight",
+    "language": "en-us",
+    "text": "Can you find business flights to Tokyo from Toronto on December 7th?",
+    "entities": [
+      {
+        "category": "FlightClass",
+        "offset": 13,
+        "length": 8
+      },
+      {
+        "category": "Destination",
+        "offset": 33,
+        "length": 5
+      },
+      {
+        "category": "Origin",
+        "offset": 44,
+        "length": 7
+      },
+      {
+        "category": "TravelDate",
+        "offset": 55,
+        "length": 12
+      }
+    ]
+  },
+  {
+    "intent": "BookFlight",
+    "language": "en-us",
+    "text": "I want to book a premium economy multi-city flight from Barcelona to Dubai on March 24th",
+    "entities": [
+      {
+        "category": "FlightClass",
+        "offset": 17,
+        "length": 15
+      },
+      {
+        "category": "FlightType",
+        "offset": 33,
+        "length": 10
+      },
+      {
+        "category": "Origin",
+        "offset": 56,
+        "length": 9
+      },
+      {
+        "category": "Destination",
+        "offset": 69,
+        "length": 5
+      },
+      {
+        "category": "TravelDate",
+        "offset": 78,
+        "length": 10
+      }
+    ]
+  },
+  {
+    "intent": "BookFlight",
+    "language": "en-us",
+    "text": "Can you find premium economy flights to Madrid from Toronto on January 1st?",
+    "entities": [
+      {
+        "category": "FlightClass",
+        "offset": 13,
+        "length": 15
+      },
+      {
+        "category": "Destination",
+        "offset": 40,
+        "length": 6
+      },
+      {
+        "category": "Origin",
+        "offset": 52,
+        "length": 7
+      },
+      {
+        "category": "TravelDate",
+        "offset": 63,
+        "length": 11
+      }
+    ]
+  },
+  {
+    "intent": "BookFlight",
+    "language": "en-us",
+    "text": "Book me a round trip flight to Barcelona from Madrid in July",
+    "entities": [
+      {
+        "category": "FlightType",
+        "offset": 10,
+        "length": 10
+      },
+      {
+        "category": "Destination",
+        "offset": 31,
+        "length": 9
+      },
+      {
+        "category": "Origin",
+        "offset": 46,
+        "length": 6
+      },
+      {
+        "category": "TravelMonth",
+        "offset": 56,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "intent": "BookFlight",
+    "language": "en-us",
+    "text": "Need a round trip ticket from Singapore to San Francisco in September",
+    "entities": [
+      {
+        "category": "FlightType",
+        "offset": 7,
+        "length": 10
+      },
+      {
+        "category": "Origin",
+        "offset": 30,
+        "length": 9
+      },
+      {
+        "category": "Destination",
+        "offset": 43,
+        "length": 13
+      },
+      {
+        "category": "TravelMonth",
+        "offset": 60,
+        "length": 9
+      }
+    ]
+  },
+  {
+    "intent": "BookFlight",
+    "language": "en-us",
+    "text": "I want to book a business round trip flight from New York to London on December 11th",
+    "entities": [
+      {
+        "category": "FlightClass",
+        "offset": 17,
+        "length": 8
+      },
+      {
+        "category": "FlightType",
+        "offset": 26,
+        "length": 10
+      },
+      {
+        "category": "Origin",
+        "offset": 49,
+        "length": 8
+      },
+      {
+        "category": "Destination",
+        "offset": 61,
+        "length": 6
+      },
+      {
+        "category": "TravelDate",
+        "offset": 71,
+        "length": 13
+      }
+    ]
+  },
+  {
+    "intent": "BookFlight",
+    "language": "en-us",
+    "text": "I want to book a economy one-way flight from Paris to Toronto on December 19th",
+    "entities": [
+      {
+        "category": "FlightClass",
+        "offset": 17,
+        "length": 7
+      },
+      {
+        "category": "FlightType",
+        "offset": 25,
+        "length": 7
+      },
+      {
+        "category": "Origin",
+        "offset": 45,
+        "length": 5
+      },
+      {
+        "category": "Destination",
+        "offset": 54,
+        "length": 7
+      },
+      {
+        "category": "TravelDate",
+        "offset": 65,
+        "length": 13
+      }
+    ]
+  },
+  {
+    "intent": "BookFlight",
+    "language": "en-us",
+    "text": "Book me a round trip flight to Dubai from Sydney in October",
+    "entities": [
+      {
+        "category": "FlightType",
+        "offset": 10,
+        "length": 10
+      },
+      {
+        "category": "Destination",
+        "offset": 31,
+        "length": 5
+      },
+      {
+        "category": "Origin",
+        "offset": 42,
+        "length": 6
+      },
+      {
+        "category": "TravelMonth",
+        "offset": 52,
+        "length": 7
+      }
+    ]
+  }
+]

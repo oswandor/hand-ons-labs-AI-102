@@ -1,0 +1,29 @@
+
+
+### https://learn.microsoft.com/en-us/azure/ai-services/translator/text-translation/reference/v3/detect
+
+POST https://api.cognitive.microsofttranslator.com/detect?api-version=3.0
+Content-Type: application/json
+Ocp-Apim-Subscription-Key: F4d29sI6e8UZ6q7hSFQrqS2irm2aNpfqe4RAlfBbCeZ4r2URlmz5JQQJ99BDACYeBjFXJ3w3AAAbACOGT5KE
+Ocp-Apim-Subscription-Region: eastus
+
+[
+    {
+        "Text": "Hello, how are you?"
+    }
+]
+
+#### 
+POST https://api.cognitive.microsofttranslator.com/translate?api-version=3.0&from=es&to=zh-Hans
+Content-Type: application/json
+Ocp-Apim-Subscription-Key: F4d29sI6e8UZ6q7hSFQrqS2irm2aNpfqe4RAlfBbCeZ4r2URlmz5JQQJ99BDACYeBjFXJ3w3AAAbACOGT5KE
+Ocp-Apim-Subscription-Region: eastus
+
+[
+    {
+        "Text": "Hola, Cual es tu nombre?"
+    }
+]
+
+###
+curl -i -X POST "https://translatorfabrik.cognitiveservices.azure.com/translator/document:translate?targetLanguage=es&api-version=2024-05-01" -H "Ocp-Apim-Subscription-Key:F4d29sI6e8UZ6q7hSFQrqS2irm2aNpfqe4RAlfBbCeZ4r2URlmz5JQQJ99BDACYeBjFXJ3w3AAAbACOGT5KE"  -F "document=@C:/Users/RonalGonzalez/Pictures/hand-on-labs-AI-102/lab-2/lab-2.0.4/document-translation-sample.docx;type=application/vnd.openxmlformats-officedocument.wordprocessingml.document"  -o "C:/Users/RonalGonzalez/Pictures/hand-on-labs-AI-102/lab-2/lab-2.0.4/archivo-traducido.docx"
