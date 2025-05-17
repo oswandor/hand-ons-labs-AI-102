@@ -11,7 +11,7 @@ import os, time, uuid
 import os
 
 # Retrieve environment variables
-ENDPOINT = os.getenv("CUSTOM_VISION_ENDPOINT", "https://customvisionorbital.cognitiveservices.azure.com/")
+ENDPOINT = os.getenv("CUSTOM_VISION_ENDPOINT")
 training_key = os.getenv("CUSTOM_VISION_TRAINING_KEY")
 prediction_key = os.getenv("CUSTOM_VISION_PREDICTION_KEY")
 prediction_resource_id = os.getenv("CUSTOM_VISION_PREDICTION_RESOURCE_ID")

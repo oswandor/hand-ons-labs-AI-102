@@ -17,8 +17,8 @@ import time
 Authenticate
 Authenticates your credentials and creates a client.
 '''
-subscription_key = os.getenv("COMPUTER_VISION_SUBSCRIPTION_KEY")
 endpoint = os.getenv("COMPUTER_VISION_ENDPOINT")
+subscription_key = os.getenv("COMPUTER_VISION_SUBSCRIPTION_KEY")
 
 if not subscription_key or not endpoint:
     raise ValueError("Please set the COMPUTER_VISION_SUBSCRIPTION_KEY and COMPUTER_VISION_ENDPOINT environment variables.")

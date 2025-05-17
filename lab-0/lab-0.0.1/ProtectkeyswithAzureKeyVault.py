@@ -7,7 +7,7 @@ from azure.keyvault.secrets import SecretClient  # Cliente para manejar secretos
 from azure.identity import DefaultAzureCredential  # Para la autenticación con Azure
 
 # Definición del nombre del Key Vault
-keyVaultName = "keuvault-ai102labs"
+keyVaultName = os.getenv("KEY_VAULT_NAME", "keuvault-ai102labs")
 # Construcción de la URL del Key Vault
 KVUri = f"https://{keyVaultName}.vault.azure.net"
 
@@ -17,7 +17,7 @@ credential = DefaultAzureCredential()
 client = SecretClient(vault_url=KVUri, credential=credential)
 
 # Nombre del secreto que queremos recuperar
-secretName = "AISERVICEKEY"
+secretName = os.getenv("SECRET_NAME", "AISERVICEKEY")
 
 print(f"Recuperando tu secreto desde {keyVaultName}.")
 

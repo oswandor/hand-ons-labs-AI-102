@@ -10,10 +10,10 @@ import os
 
 
 # Replace with valid values
-ENDPOINT = os.getenv("CUSTOM_VISION_ENDPOINT", "https://youservicecustom.cognitiveservices.azure.com/")
+ENDPOINT = os.getenv("CUSTOM_VISION_ENDPOINT")
 training_key = os.getenv("CUSTOM_VISION_TRAINING_KEY", "your_training_key_here")
 
-ENDPOINT_PREDICTION = os.getenv("CUSTOM_VISION_PREDICTION_ENDPOINT", "https://youservicecustom-prediction.cognitiveservices.azure.com/")
+ENDPOINT_PREDICTION = os.getenv("CUSTOM_VISION_PREDICTION_ENDPOINT")
 prediction_key = os.getenv("CUSTOM_VISION_PREDICTION_KEY", "your_prediction_key_here")
 prediction_resource_id = os.getenv("CUSTOM_VISION_PREDICTION_RESOURCE_ID", "/subscriptions/your_subscription_id/resourceGroups/your_resource_group/providers/Microsoft.CognitiveServices/accounts/your_account_name")
 
